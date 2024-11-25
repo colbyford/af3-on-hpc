@@ -127,6 +127,8 @@ AlphaFold3 runs using JSON files that are a specific format. An example `alphafo
 }
 ```
 
+Other example files are in the [`examples/`](examples/) folder in this repository.
+
 ## Resources
 
 - AlphaFold3 Repository: https://github.com/google-deepmind/alphafold3
