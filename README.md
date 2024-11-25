@@ -27,7 +27,7 @@ mkdir code databases image weights
 git clone https://github.com/google-deepmind/alphafold3.git ./code/alphafold3
 ```
 
-2. In the `databases/` folder, run the `fetch_databases.py` script that was clones from the GitHub repository.
+2. In the `databases/` folder, run the `fetch_databases.py` script that was cloned from the GitHub repository.
 
 ```bash
 python ./code/alphafold3/fetch_databases.py --download_destination ./databases
@@ -42,10 +42,10 @@ singularity pull ./image/alphafold3.sif docker://cford38/alphafold3
 ```
 
 
-4. In the `weights/` folder, you'll need to request the model parameters using [this form](https://forms.gle/svvpY4u2jsHEwWYS6). Once they send you the link to the weigths, you can download them using the following command.
+4. In the `weights/` folder, you'll need to request the model parameters using [this form](https://forms.gle/svvpY4u2jsHEwWYS6). Once they send you the link to the weights, you can download them using the following command.
 
 ```bash
-wget -P ./weights/ https://storage.googleapis.com/alphafold3/models/64/<yourkey>/af3.bin.zst
+wget -P ./weights/ https://storage.googleapis.com/alphafold3/models/64/<your_key>/af3.bin.zst
 ```
 
 
