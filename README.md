@@ -2,7 +2,7 @@
 
 <h3 align="right">Colby T. Ford, Ph.D.</h3>
 
-Logic for running AlphaFold3 in a Docker container on an HPC cluster environment.
+<p align="middle">Steps for running AlphaFold3 in a container on an HPC cluster environment.</p>
 
 
 ## Setup
@@ -13,12 +13,18 @@ Create an `alphafold3_resources` folder on the cluster with the following subfol
 - `image`
 - `weights`
 
+```bash
+mkdir code databases image weights
+```
+
+![Placeholder folders](folders.png)
+
 ### Filling in the Folders
 
 1. For the `code/` folder, clone the AlphaFold3 repository. This will give you the scripts to actually run the AlphaFold3 process.
 
 ```bash
-git clone https://github.com/google-deepmind/alphafold3.git ./code
+git clone https://github.com/google-deepmind/alphafold3.git ./code/alphafold3
 ```
 
 2. In the `databases/` folder, run the `fetch_databases.py` script that was clones from the GitHub repository.
