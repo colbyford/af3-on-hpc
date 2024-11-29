@@ -7,11 +7,7 @@
 
 ## Setup
 
-Create an `alphafold3_resources` folder on the cluster with the following subfolders:
-- `code`
-- `databases`
-- `image`
-- `weights`
+Create an `alphafold3_resources` folder on the cluster with the following subfolders: `code`, `databases`, `image` `weights`.
 
 ```bash
 mkdir code databases image weights
