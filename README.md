@@ -39,7 +39,7 @@ singularity pull ./image/alphafold3.sif docker://cford38/alphafold3
 ```
 
 
-4. In the `weights/` folder, you'll need to request the model parameters using [this form](https://forms.gle/svvpY4u2jsHEwWYS6). Once they send you the link to the weights, you can download them using the following command.
+4. In the `weights/` folder, you'll need to request the model parameters using [this form](https://forms.gle/svvpY4u2jsHEwWYS6). Once they send you the link to the weights, you can download them using the following command. Not that there are restrictions as to how the model can be used.
 
 ```bash
 wget -P ./weights/ https://storage.googleapis.com/alphafold3/models/64/<your_key>/af3.bin.zst
