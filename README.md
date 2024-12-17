@@ -86,7 +86,7 @@ singularity exec \
 ```
 
 
-Lastly, you can submit the job using the following command.
+2. Lastly, you can submit the job using the following command.
 
 ```bash
 sbatch submit.sh
