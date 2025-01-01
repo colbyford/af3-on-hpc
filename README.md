@@ -2,7 +2,7 @@
 
 <h3 align="right">Colby T. Ford, Ph.D.</h3>
 
-<p align="middle">Steps for running AlphaFold3 in a container on an HPC cluster environment.</p>
+<p align="middle">Steps for running AlphaFold3 in a container on HPC cluster environments.</p>
 
 **Blog Post:** https://blog.colbyford.com/running-alphafold3-at-scale-on-high-performance-computing-clusters-82764a6b809e
 
