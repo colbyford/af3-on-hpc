@@ -24,10 +24,13 @@ mkdir code databases image weights
 git clone https://github.com/google-deepmind/alphafold3.git ./code/alphafold3
 ```
 
-2. In the `databases/` folder, run the `fetch_databases.py` script that was cloned from the GitHub repository.
+2. In the `databases/` folder, run the `fetch_databases.sh` script that was cloned from the GitHub repository.
 
 ```bash
-python ./code/alphafold3/fetch_databases.py --download_destination ./databases
+./code/alphafold3/fetch_databases.sh ./databases
+
+## or, if you use the older release, which uses a Python script
+# python ./code/alphafold3/fetch_databases.py --download_destination ./databases
 ```
 
 3. In the `image/` folder, you will need to generate a Singularity/Apptainer image from the prebuilt Docker image hosted on DockerHub.
