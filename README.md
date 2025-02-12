@@ -20,8 +20,15 @@ mkdir code databases image weights
 
 1. For the `code/` folder, clone the AlphaFold3 repository. This will give you the scripts to actually run the AlphaFold3 process.
 
+> [!WARNING]  
+> Some individuals are having issues with the v3.0.1 release code, which is giving some import errors in Python.
+> As such, I'd recommend you stick with v3.0.0.
+
 ```bash
 git clone https://github.com/google-deepmind/alphafold3.git ./code/alphafold3
+
+## or if you want a specific release
+# git clone --branch v3.0.0 https://github.com/google-deepmind/alphafold3.git ./code/alphafold3
 ```
 
 2. In the `databases/` folder, run the `fetch_databases.sh` script that was cloned from the GitHub repository.
